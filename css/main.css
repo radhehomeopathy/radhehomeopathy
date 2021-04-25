@@ -760,6 +760,9 @@ quote {
 /*=========================================
 	Useful Videos
 ==========================================*/
+.videocard {
+  margin-top: 25px;
+}
 
 .card .card-image {
   overflow: hidden;
@@ -786,8 +789,8 @@ quote {
 
 .card .card-content .card-title,
 .card-reveal .card-title {
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 15px;
+  font-weight: bold;
   color: white;
 }
 
@@ -983,16 +986,17 @@ label.error {
 
 /* Desktop Modal */
 
-.modal-body .modalText{ 
-    font-weight:900; 
-    font-size:2.3em;
-    text-transform:uppercase;
-  }
+.modal-body .modalText {
+  font-weight: 900;
+  font-size: 2.3em;
+  text-transform: uppercase;
+}
 
- .modal-backdrop{
+.modal-backdrop {
   backdrop-filter: blur(5px);
   background-color: #01223770;
 }
-.modal-backdrop.in{
+
+.modal-backdrop.in {
   opacity: 1 !important;
 }

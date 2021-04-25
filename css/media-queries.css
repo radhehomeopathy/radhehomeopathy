@@ -9,6 +9,54 @@
     font-size: 45px;
   }
 
+  /* services */
+
+  .service-icon img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #0eb493;
+    border-radius: 50%;
+    color: #0eb493;
+    float: left;
+    padding: 10px 13px;
+    filter: drop-shadow(0px 5px 3px black);
+  }
+
+  .enqbtn {
+    margin-top: 10px;
+    position: relative;
+    border-radius: 20%;
+    background-color: #00c094;
+    border: none;
+  }
+
+
+  .enqbtn:hover {
+    margin-top: 10px;
+    position: relative;
+    border-radius: 20%;
+    background-color: #00c094;
+    border: none;
+  }
+
+  .service-desc {
+    margin-left: 120px;
+    position: relative;
+    top: 5px;
+    height: 180px;
+  }
+
+  .service-desc h3 {
+    color: #062033;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+
+  .doc {
+    margin-left: 170px;
+  }
+
   /* works */
 
 
@@ -168,7 +216,8 @@
     float: none;
     margin: 0 auto 15px;
     text-align: center;
-    width: 50px;
+    width: 100px;
+    height: 110px;
   }
 
   .service-desc {
@@ -180,8 +229,8 @@
   /* works */
 
   .work-item {
-    left: 5% !important;
-    width: 90%;
+    width: 50%;
+    margin-bottom: 15px;
   }
 
   /* team */
