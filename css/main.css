@@ -81,7 +81,7 @@ body>section,
   padding: 70px 0;
 }
 
-.sec-title {}
+
 
 .sec-title h2 {
   color: #0eb493;
@@ -823,7 +823,7 @@ quote {
   line-height: 24px;
 }
 
-.contact-form {}
+
 
 .contact-form h3 {
   color: #062033;
@@ -954,7 +954,7 @@ label.error {
   top: -80px;
 }
 
-.footer-single ul {}
+
 
 .footer-single li {
   line-height: 32px;
@@ -990,6 +990,7 @@ label.error {
   font-weight: 900;
   font-size: 2.3em;
   text-transform: uppercase;
+  margin: 10px 0px;
 }
 
 .modal-backdrop {
