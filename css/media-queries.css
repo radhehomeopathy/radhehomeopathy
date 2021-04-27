@@ -474,4 +474,8 @@
   .member-thumb {
     margin: 0 auto;
   }
+
+  .carousel-caption {
+    top: 37%;
+  }
 }
